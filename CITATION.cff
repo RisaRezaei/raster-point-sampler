@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Raster Point Sampler"
+abstract: "Python command-line tool that samples a stack of rasters at point locations, with automatic reprojection and nodata handling, into one Excel, CSV or GeoPackage table."
+type: software
+authors:
+  - family-names: Abbasalizadehrezaei
+    given-names: Parisa
+    orcid: "https://orcid.org/0009-0009-5708-7673"
+repository-code: "https://github.com/RisaRezaei/raster-point-sampler"
+url: "https://risarezaei.github.io/tool.html?r=raster-point-sampler"
+license: MIT
+version: 1.0.0
+date-released: "2026-10-25"
