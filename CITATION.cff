@@ -10,5 +10,6 @@ authors:
 repository-code: "https://github.com/RisaRezaei/raster-point-sampler"
 url: "https://risarezaei.github.io/tool.html?r=raster-point-sampler"
 license: MIT
+doi: "10.5281/zenodo.23646412"
 version: 1.0.0
 date-released: "2026-10-25"

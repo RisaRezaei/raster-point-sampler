@@ -3,6 +3,7 @@
 [![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?logo=python&logoColor=white)](https://www.python.org)
 [![rasterio](https://img.shields.io/badge/built%20with-rasterio%20%C2%B7%20GeoPandas-2E7D32)](https://rasterio.readthedocs.io)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23646412.svg)](https://doi.org/10.5281/zenodo.23646412)
 
 Extract values from **many rasters at many points** in one command and get a single table (Excel, CSV or GeoPackage): one row per point and one column per raster. Typical uses are pulling time series from a folder of daily or monthly maps at monitoring stations, flood points or field sites.
 
@@ -59,6 +60,12 @@ python sample_rasters.py --points sites.gpkg --keep site_id Time \
 | 60.00 | 10.00 | 3 | *(empty: outside raster)* | |
 
 Multi-band rasters get one column per band (`name_b1`, `name_b2`, …).
+
+## Cite this tool
+
+Abbasalizadehrezaei, P. (2026). *Raster Point Sampler* (Version 1.0.0) [Software]. Zenodo. https://doi.org/10.5281/zenodo.23646412
+
+GitHub also offers a ready-made citation under **Cite this repository** (from [CITATION.cff](CITATION.cff)).
 
 ## Author
 
